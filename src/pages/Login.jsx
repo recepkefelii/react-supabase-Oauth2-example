@@ -4,6 +4,7 @@ import  '../global.css'
 import Backgorund from '../components/Backgorund'
 import Button from '../components/Button'
 import '../styles/login.css'
+import Navbar from '../components/Navbar'
 
 export default function Login() {
   return (
