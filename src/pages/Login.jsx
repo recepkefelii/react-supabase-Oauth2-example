@@ -5,10 +5,13 @@ import Backgorund from '../components/Backgorund'
 import Button from '../components/Button'
 import '../styles/login.css'
 import Navbar from '../components/Navbar'
+import '../styles/login.css'
 
 export default function Login() {
   return (
-    <div className='input'>
+    <div className='login'>
+        <Navbar/>
+      <div className='main'>
         <Backgorund>
             <span style={{fontSize: 40, marginBottom: 15, fontWeight: 500,color: "#222"}}>Sign in</span>
             <div>
@@ -21,6 +24,7 @@ export default function Login() {
             </div>
             <Button>Sign in</Button>
         </Backgorund>
+        </div>
     </div>
   )
 }

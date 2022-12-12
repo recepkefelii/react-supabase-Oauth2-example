@@ -9,23 +9,23 @@ export default function Navbar() {
   <input type="checkbox" id="nav-check"/>
   <div class="nav-header">
     <div class="nav-title">
-      JoGeek
+      Social-Media
     </div>
   </div>
   <div class="nav-btn">
     <label for="nav-check">
-      <span></span>
-      <span></span>
-      <span></span>
     </label>
   </div>
   
   <div class="nav-links">
-    <NavLink to={"auth/login"}>
+    <NavLink to={"/auth/login"}>
         Sign in
     </NavLink>
-    <NavLink to={"auth/register"}>
+    <NavLink to={"/auth/register"}>
         Signup
+    </NavLink>
+    <NavLink to={"/"}>
+      Home
     </NavLink>
   </div>
 </div>
