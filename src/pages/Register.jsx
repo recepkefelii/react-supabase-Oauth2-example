@@ -1,16 +1,17 @@
-import '../styles/register.css'
 import React from 'react'
 import Input from '../components/Input'
 import  '../global.css'
 import Backgorund from '../components/Backgorund'
 import Button from '../components/Button'
 import Navbar from '../components/Navbar'
+import Main from '../styles/main-component-style'
+import Bar from '../styles/bar-component-style'
 
 function Register() {
   return (
-    <div className='register'>
+    <Bar>
     <Navbar/>
-  <div className='main'>
+  <Main>
     <Backgorund>
         <span style={{fontSize: 40, marginBottom: 15, fontWeight: 500,color: "#222"}}>Signup</span>
         <div>
@@ -31,8 +32,8 @@ function Register() {
         </div>
         <Button>Signup</Button>
     </Backgorund>
-    </div>
-</div>
+  </Main>
+    </Bar>
   )
 }
 

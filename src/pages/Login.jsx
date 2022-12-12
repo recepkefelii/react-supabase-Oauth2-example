@@ -3,15 +3,15 @@ import Input from '../components/Input'
 import  '../global.css'
 import Backgorund from '../components/Backgorund'
 import Button from '../components/Button'
-import '../styles/login.css'
 import Navbar from '../components/Navbar'
-import '../styles/login.css'
+import Main from '../styles/main-component-style'
+import Bar from '../styles/bar-component-style'
 
 export default function Login() {
   return (
-    <div className='login'>
+    <Bar>
         <Navbar/>
-      <div className='main'>
+      <Main>
         <Backgorund>
             <span style={{fontSize: 40, marginBottom: 15, fontWeight: 500,color: "#222"}}>Sign in</span>
             <div>
@@ -24,7 +24,7 @@ export default function Login() {
             </div>
             <Button>Sign in</Button>
         </Backgorund>
-        </div>
-    </div>
+      </Main>
+    </Bar>
   )
 }
