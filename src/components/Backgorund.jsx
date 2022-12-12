@@ -7,7 +7,6 @@ const Background = styled.div`
     flex-direction: column;
     gap: 20px;
     border-radius: 7px;
-
 `;
 
 export default Background

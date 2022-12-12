@@ -1,5 +1,3 @@
-
-
 html,body,#root {
     height: 100%;
     margin: 0;
@@ -86,13 +84,13 @@ body {
       padding: 13px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(11, 255, 97, 0.3);
     }
     .nav > .nav-btn > label > span {
       display: block;
       width: 25px;
       height: 10px;
-      border-top: 2px solid #eee;
+      border-top: 2px solid rgb(238, 238, 238);
     }
     .nav > .nav-links {
       position: absolute;
