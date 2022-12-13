@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Main = styled.div`
-     flex: 1;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,4 +10,3 @@ const Main = styled.div`
 `;
 
 export default Main;
-   
