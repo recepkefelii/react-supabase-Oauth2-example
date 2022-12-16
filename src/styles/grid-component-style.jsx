@@ -5,7 +5,7 @@ const Grid = styled.div`
     border: 1px solid #dadada;
     border-radius: 5px;
     margin: 0;
-    padding: 20px;
+    padding: 5px 20px 5px 20px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     transition: box-shadow .15s;
     &:hover{

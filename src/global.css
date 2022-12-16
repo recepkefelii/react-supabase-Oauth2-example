@@ -48,7 +48,8 @@ body {
   }
   
   .nav > .nav-links {
-    display: inline;
+    display: flex;
+    align-items: center;
     float: right;
     font-size: 18px;
     font-weight: 500;
@@ -139,4 +140,29 @@ body {
                        from(#a9a9a9),
                        to(#acacac),
                        color-stop(.6,#b1b1b1))
+  }
+.menu {
+  position: relative;
+}
+
+  .list {
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    background-color: #16966c;
+    display: none;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .list > a {
+    padding: 5px 20px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .list.active {
+    display: flex;
   }

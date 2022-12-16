@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Input = styled.input`
+const Input = styled.button`
   width: 400px;
   height: 40px;
   outline: none;
