@@ -37,63 +37,6 @@ export default function CardCompoenent() {
         }
         </div>
         </Grid>
-        <Grid>
-        <div style={{display: "flex", justifyContent: "space-between", alignItems: "center",}}>
-          <ProfilName>Recep</ProfilName>
-          <div style={{paddingTop: 5}}>
-            <Small>2 Days ago</Small>
-          </div>
-        </div>
-        <Line/>
-        <div>
-          <p style={{overflow: "auto", height: 160, margin: 0}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          </p>
-        </div>
-        <div style={{marginTop: 15}}>
-        {
-          like ? <MdFavorite style={{color: "green", fontSize: 30,}} onClick={() => setLike(!like)}/> : <MdFavoriteBorder style={{color: "green", fontSize: 30,}} onClick={() => setLike(!like)}/>
-        }
-        </div>
-        </Grid>
-        <Grid>
-        <div style={{display: "flex", justifyContent: "space-between", alignItems: "center",}}>
-          <ProfilName>Recep</ProfilName>
-          <div style={{paddingTop: 5}}>
-            <Small>2 Days ago</Small>
-          </div>
-        </div>
-        <Line/>
-        <div>
-          <p style={{overflow: "auto", height: 160, margin: 0}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod
-          </p>
-        </div>
-        <div style={{marginTop: 15, display: 'flex' ,alignItems: 'center'}}>
-        {
-          like ? <MdFavorite style={{color: "green", fontSize: 30,}} onClick={() => setLike(!like)}/> : <MdFavoriteBorder style={{color: "green", fontSize: 30,}} onClick={() => setLike(!like)}/>
-        }
-        <p style={{fontSize: 15}}>1</p>
-        </div>
-        </Grid>
         
     </Cards>
   )

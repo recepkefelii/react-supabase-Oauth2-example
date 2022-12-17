@@ -24,6 +24,7 @@ export default function Login() {
     <Navbar/>
   <Main>
     <Backgorund>
+    <span style={{fontSize: 40, marginBottom: 15, fontWeight: 500,color: "#222"}}>Login</span>
       <Input onClick={() => login('google')}>
         <FcGoogle style={{marginRight: "auto"}} size={30} color="white" />
         <span style={{flex: 1}}>Sign in with Google</span>
