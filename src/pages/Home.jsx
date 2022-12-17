@@ -10,15 +10,16 @@ export default function Home() {
   
 
    useEffect(() => {
-    supabase.auth.getUser().then(value => {
-      if (value) {
-        dispatch(GithubLogin({user: value.data.user})) 
+    supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'SIGNED_IN') {
+        supabase.auth.getUser().then(value => {
+          if (value) {
+            dispatch(GithubLogin({user: value.data.user})) 
+          }
+        })
       }
     })
    },[])
-   console.log(user);
-  
-  
 
   if(user.email){
     return (

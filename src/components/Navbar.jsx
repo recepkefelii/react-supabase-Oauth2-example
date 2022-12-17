@@ -24,22 +24,22 @@ export default function Navbar() {
   const {user} = useSelector((state) => state.authReducer)
   return (
    <div style={{ width: "100%"}}>
-    <div class="nav">
+    <div className="nav">
   <input type="checkbox" id="nav-check"/>
-  <div class="nav-header">
-    <div class="nav-title">
+  <div className="nav-header">
+    <div className="nav-title">
       Social-Media
     </div>
   </div>
-  <div class="nav-btn">
-    <label for="nav-check">
+  <div className="nav-btn">
+    <label htmlFor="nav-check">
       <span></span>
       <span></span>
       <span></span>
     </label>
   </div>
   
-  <div class="nav-links">
+  <div className="nav-links">
     {
       user.email ? null :<NavLink to={"/auth/login"}>Login</NavLink>
     }
@@ -50,7 +50,7 @@ export default function Navbar() {
     {
       user.user_metadata.avatar_url ? <img onClick={menuHandle} src={user.user_metadata.avatar_url} alt="" style={{height: 40, width: 40, borderRadius: 25, cursor: "pointer"}}/> : null
     }
-    <div ref={menu} class="list">
+    <div ref={menu} className="list">
    <NavLink to="">Menu item 1</NavLink>
   <NavLink onClick={logOut} to="/auth/login">Logout</NavLink>
     </div>

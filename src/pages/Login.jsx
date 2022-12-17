@@ -9,14 +9,10 @@ import  { supabase }  from '../supabase/SupabaseClient'
 import { FcGoogle } from "react-icons/fc";
 import { AiOutlineGithub } from "react-icons/Ai";
 import { FaDiscord } from "react-icons/fa";
-import { useSelector, useDispatch } from 'react-redux'
-import { useNavigate } from 'react-router'
 import '../global.css'
 
 
 export default function Login() {
-  const navigate = useNavigate()
-  const {user} = useSelector((state) => state.authReducer)
 
   const login = async (provider) => {
     await supabase.auth.signInWithOAuth({provider: provider})
