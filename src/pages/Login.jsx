@@ -7,7 +7,7 @@ import Main from '../styles/main-component-style'
 import Bar from '../styles/bar-component-style'
 import  { supabase }  from '../supabase/SupabaseClient'
 import { FcGoogle } from "react-icons/fc";
-import { AiOutlineGithub } from "react-icons/Ai";
+import { AiOutlineGithub } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 import '../global.css'
 
