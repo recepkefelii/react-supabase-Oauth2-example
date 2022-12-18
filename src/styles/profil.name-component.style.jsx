@@ -9,6 +9,9 @@ const ProfilName = styled.a`
     &:hover{
         color: rgba(61, 193, 157,.9);
     }
+    @media screen {
+        font-size: 15px;
+    }
 `;
 
 export default ProfilName;

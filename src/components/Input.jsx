@@ -18,6 +18,18 @@ const Input = styled.button`
     border: 2px solid #3DC19D;
   }
   transition: color .15s;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  @media (max-width: 425px) {
+    width: 100%;
+  }
+
+  @media (max-width: 375px) {
+    width: 100%;
+  }
   `;
 
 export default Input

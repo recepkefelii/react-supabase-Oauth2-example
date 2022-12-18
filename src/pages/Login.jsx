@@ -45,6 +45,7 @@ export default function Login() {
   if(localStorage.getItem('sb-iljjyaxfycermifsypsy-auth-token')){
     <div>
       {window.location.href = "/"}
+      
     </div>
   }
     
