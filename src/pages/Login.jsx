@@ -15,7 +15,9 @@ import '../global.css'
 export default function Login() {
 
   const login = async (provider) => {
-    await supabase.auth.signInWithOAuth({provider: provider})
+    await supabase.auth.signInWithOAuth({provider: provider,
+      redirectTo: 'http://localhost:3000/'
+    })
   }
   
   if (!localStorage.getItem('sb-iljjyaxfycermifsypsy-auth-token')) {
